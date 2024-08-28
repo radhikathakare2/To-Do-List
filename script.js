@@ -25,13 +25,14 @@ add.addEventListener("click", () => {
 
 taskList.addEventListener('click', (e)=>{
   if(e.target.tagName === 'LI'){
-      e.target.classList.add("checked");
+      e.target.classList.toggle("checked");
+      const checked = e.target;
       saveData();
   }
   else if(e.target.tagName === 'SPAN'){
       e.target.parentElement.remove();
       saveData();
-  }
+  } 
 })
 
 function saveData(){
