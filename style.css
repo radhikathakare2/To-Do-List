@@ -174,4 +174,8 @@ ul li.checked span:hover{
     text-align: center;
     font-size: 1.5rem;
  }
+ .container{
+    border-radius: 30px;
+
+ }
 }
