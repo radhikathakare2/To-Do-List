@@ -10,7 +10,8 @@ html, body{
 }
 body{
     width: 100%;
-    padding: 80px;
+    padding: 10px;
+    margin-top: 50px;
     background: linear-gradient(to top, #d2e8fa, #fbbebe);
     display: flex;
     align-items: center;
@@ -172,5 +173,6 @@ ul li.checked span:hover{
  }
  h1{
     text-align: center;
+    font-size: 1.5rem;
  }
 }
