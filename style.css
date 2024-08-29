@@ -10,7 +10,7 @@ html, body{
 }
 body{
     width: 100%;
-    padding: 10px;
+    padding: 0px 10px;
     background: linear-gradient(to top, #d2e8fa, #fbbebe);
     display: flex;
     align-items: center;
