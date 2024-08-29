@@ -15,7 +15,7 @@ body{
     background: linear-gradient(to top, #d2e8fa, #fbbebe);
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     flex-direction: column;
 }
 .container{
